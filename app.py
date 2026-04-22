@@ -11,7 +11,7 @@ import os
 FAMOUS_STOCKS = {
     "NVIDIA": "NVDA", "Tesla": "TSLA", "Apple": "AAPL", 
     "Microsoft": "MSFT", "Amazon": "AMZN", "Google": "GOOGL", 
-    "Meta": "META", "Netflix": "NFLX", "AMD": "AMD", "Reliance": "RELIANCE.NS"
+    "Meta": "META"
 }
 
 # --- 2. DATA PERSISTENCE ---
