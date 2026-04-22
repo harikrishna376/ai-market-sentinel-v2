@@ -9,9 +9,35 @@ import os
 
 # --- 1. CONFIGURATION ---
 FAMOUS_STOCKS = {
-    "NVIDIA": "NVDA", "Tesla": "TSLA", "Apple": "AAPL", 
-    "Microsoft": "MSFT", "Amazon": "AMZN", "Google": "GOOGL", 
-    "Meta": "META"
+    # Original List (Big Tech/Magnificent 7)
+    "NVIDIA": "NVDA", 
+    "Tesla": "TSLA", 
+    "Apple": "AAPL", 
+    "Microsoft": "MSFT", 
+    "Amazon": "AMZN", 
+    "Google": "GOOGL", 
+    "Meta": "META",
+    
+    # Semiconductor & AI Infrastructure
+    "TSMC": "TSM",          # World's largest chip foundry
+    "Broadcom": "AVGO",      # Key AI networking/custom chips
+    "ASML": "ASML",        # Monopolist in chip-making lithography
+    "AMD": "AMD",          # Direct NVIDIA competitor
+    "Micron": "MU",        # High-bandwidth memory for AI
+    
+    # Finance & Fintech (High Volume)
+    "JPMorgan": "JPM",      # Largest US bank
+    "Visa": "V",           # Global payment processing
+    "Berkshire": "BRK-B",   # Warren Buffett's conglomerate
+    
+    # Retail & Consumer
+    "Walmart": "WMT",       # Consumer staples leader
+    "Costco": "COST",       # Strong retail performance
+    "Netflix": "NFLX",      # Entertainment/Streaming leader
+    
+    # Cloud & Enterprise Software
+    "Oracle": "ORCL",       # Growing cloud infrastructure player
+    "Salesforce": "CRM",    # SaaS/AI integration leader
 }
 
 # --- 2. DATA PERSISTENCE ---
